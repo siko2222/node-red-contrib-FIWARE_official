@@ -1,6 +1,6 @@
 {
     "name": "node-red-docker",
-    "version": "1.2.9",
+    "version": "4.0.9",
     "description": "Low-code programming for event-driven applications",
     "homepage": "http://nodered.org",
     "license": "Apache-2.0",
@@ -29,7 +29,7 @@
         }
     ],
     "dependencies": {
-        "node-red": "1.2.9",
+        "node-red": "4.0.9",
         "node-red-contrib-fiware_official": "git+https://github.com/FIWARE/node-red-contrib-FIWARE_official.git#master",
         "passport-fiware-oauth": "^0.3.0"
     },
