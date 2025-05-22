@@ -2,7 +2,7 @@ version: "3"
 
 services:
   orion:
-    image: fiware/orion:2.5.2
+    image: fiware/orion:4.1.0
     ports:
       - 11026:1026
     depends_on:
@@ -10,7 +10,7 @@ services:
     command: -dbhost mongo
 
   orion-ld:
-    image: fiware/orion-ld:0.6.1
+    image: fiware/orion-ld:1.9.0
     ports:
       - 1026:1026
     depends_on:
@@ -18,7 +18,7 @@ services:
     command: -dbhost mongo -db orionld
 
   mongo:
-    image: mongo:3.6
+    image: mongo:8.0
     command: --nojournal
     volumes:
       - ./config/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
