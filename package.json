@@ -22,17 +22,17 @@
     "url": "git+https://github.com/FIWARE/node-red-contrib-FIWARE_official.git"
   },
   "dependencies": {
-    "request": "^2.88.0"
+    "request": "^2.88.2"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^5.15.1",
-    "eslint-config-tamia": "^6.0.1",
-    "eslint-plugin-prettier": "^2.7.0",
-    "mocha": "^6.0.2",
-    "node-red": "^0.20.7",
-    "node-red-node-test-helper": "^0.2.1",
-    "prettier": "^1.16.4"
+    "chai": "^5.2.0",
+    "eslint": "^9.27.0",
+    "eslint-config-tamia": "^9.2.3",
+    "eslint-plugin-prettier": "^5.4.0",
+    "mocha": "^11.4.0",
+    "node-red": "^4.0.9",
+    "node-red-node-test-helper": "^0.3.4",
+    "prettier": "^3.5.3"
   },
   "keywords": [
     "node-red",
